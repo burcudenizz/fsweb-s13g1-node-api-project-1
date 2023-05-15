@@ -81,7 +81,7 @@ server.delete("/api/users/:id", (req, res) => {
     });
 });
 
-//PUT ile tüm kullanıcı bilgilerini çektik.
+//PUT ile belirli bir idsi olan kullanıcı bilgilerini güncelledik.
 
 server.put("/api/users/:id", (req, res) => {
   const id = req.params.id;
